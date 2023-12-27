@@ -62,4 +62,7 @@ so we can update entire row and column later, because if we do at the moment we 
 We will use row 0 and col 0 to have the status of that particular row or column  
 We need a temp variable to store the column status since we are updating both column and row 
 Once we traverse completely and store the value, we update the corresponding rows and cols to 0
+But we start from the ends because if we convert the row0 and col0 in the beginning the statuses will be missed 
+
+In Bruteforce we can use additional space of 1 col and 1 row sized matrices and then store the corresponding statuses 
 '''
