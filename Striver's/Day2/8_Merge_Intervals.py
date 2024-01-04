@@ -37,6 +37,7 @@ class Solution:
                 output.append([start, end])
         return output
 
+print(Solution.merge([[1,3],[2,6],[8,10],[15,18]]))
 '''
 Explanation:
 Sort the given array based on the start time using lambda function
