@@ -42,7 +42,7 @@ class Solution:
                     temp = temp.next
                 return slow
         return None
-    
+
 '''
 Explanation:
 We pick 2 pointers fast and slow until we come to a point where fast is equal to slow
