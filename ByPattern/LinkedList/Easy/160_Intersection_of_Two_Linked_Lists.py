@@ -79,5 +79,5 @@ class Solution:
 Explanation:
 We have 2 pointers and we start traversing 1 node at a time for both the pointers 
 and once it reaches end of the linkedlist, we move the pointer to head of other linkedlist 
-at one point we will meet at the common point
+at one point we will meet at the common point and return it
 '''
